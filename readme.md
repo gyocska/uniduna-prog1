@@ -16,8 +16,8 @@ példányosítását double típussal végezzük.
 
 ***FIGYELEM! A leírásban, valamint az UML osztálydiagram ábrán hibás elemhasználat szerepelhet (elem ebben az esetben lehet: osztály, absztrakt osztály, interfész)! Jól gondolja át a C#-ban kezelendő öröklődés mechanizmusát, mint például a több osztályból történő származtatás / kiterjesztés lehetősége. A feladatot úgy oldja meg, hogy az UML ábrán szereplő elemkapcsolatok ne sérüljenek, ha szükségét látja, akkor hajtson végre elemcserét!***
 
-##Osztály diagram
+## Osztály diagram
 ![Osztály diagram](https://cloud.githubusercontent.com/assets/25847600/25776118/d8ee99c8-32b5-11e7-93bf-5f3941624bd7.png)
 
-##Egy lehetséges kimenet
+## Egy lehetséges kimenet
 ![Egy lehetséges kimenet](https://cloud.githubusercontent.com/assets/25847600/25776117/d8e98bea-32b5-11e7-9a40-83406b79d8e0.png)
