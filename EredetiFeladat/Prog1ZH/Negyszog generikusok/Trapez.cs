@@ -6,21 +6,18 @@ using System.Threading.Tasks;
 
 namespace Prog1ZH
 {
-    class Negyzet<T> : Negyszog<T>, INegyzet<T>
+    class Trapez<T> : Negyszog<T>, ITrapez<T>
     {
-        public Negyzet(T a, T m) : base(a, m) { }
+        private readonly string name = "trapéz";
 
-        public T Atlo()
+        public Trapez(T a, T m) : base(a, m) { }
+
+        public T Kerulet(T felsoHossz, T szarHossz)
         {
             throw new NotImplementedException();
         }
 
-        public T Kerulet()
-        {
-            throw new NotImplementedException();
-        }
-
-        public T Terulet()
+        public T Terulet(T felsoHossz)
         {
             throw new NotImplementedException();
         }

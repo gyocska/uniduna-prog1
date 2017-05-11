@@ -47,15 +47,20 @@
     <Compile Include="Interfeszek\IParalelogramma.cs" />
     <Compile Include="Interfeszek\ITrapez.cs" />
     <Compile Include="Absztrakt osztalyok\Negyszog.cs" />
-    <Compile Include="Negyszog osztalyok\Negyzet.cs" />
-    <Compile Include="Negyszog osztalyok\Paralelogramma.cs" />
+    <Compile Include="Negyszog generikusok\Negyzet.cs" />
+    <Compile Include="Negyszog generikusok\Paralelogramma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Negyszog osztalyok\Trapez.cs" />
+    <Compile Include="Negyszog generikusok\Trapez.cs" />
+    <Compile Include="Tipus specifikus osztalyok\NegyzetDouble.cs" />
+    <Compile Include="Tipus specifikus osztalyok\NegyzetInt.cs" />
+    <Compile Include="Tipus specifikus osztalyok\ParalelogrammaDouble.cs" />
+    <Compile Include="Tipus specifikus osztalyok\TrapezDouble.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

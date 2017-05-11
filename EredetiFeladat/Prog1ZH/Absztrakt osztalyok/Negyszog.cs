@@ -19,7 +19,8 @@ namespace Prog1ZH
 
         public virtual void Kiir()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("A NÉGYSZÖGEK ADATAI");
+            Console.WriteLine("===================");
         }
     }
 }

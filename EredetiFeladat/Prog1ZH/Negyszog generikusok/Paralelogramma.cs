@@ -8,6 +8,8 @@ namespace Prog1ZH
 {
     class Paralelogramma<T> : Negyszog<T>, IParalelogramma<T>
     {
+        private readonly string name = "paralelogramma";
+
         public Paralelogramma(T a, T m) : base(a, m) { }
 
         public T Kerulet()
