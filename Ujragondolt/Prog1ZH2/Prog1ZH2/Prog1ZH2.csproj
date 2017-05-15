@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generikus absztrakt osztalyok\Paralelogramma.cs" />
+    <Compile Include="Generikus absztrakt osztalyok\Trapez.cs" />
     <Compile Include="Interfeszek\IKiirathato.cs" />
     <Compile Include="Interfeszek\ISikidom.cs" />
     <Compile Include="Generikus absztrakt osztalyok\Negyszog.cs" />
@@ -51,6 +53,8 @@
     <Compile Include="Tipus specifikus osztalyok\NegyzetInt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tipus specifikus osztalyok\ParalelogrammaDouble.cs" />
+    <Compile Include="Tipus specifikus osztalyok\TrapezDouble.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

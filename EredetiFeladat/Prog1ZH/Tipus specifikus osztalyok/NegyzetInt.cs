@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH.Tipus_specifikus_osztalyok
 {
     class NegyzetInt : Negyzet<int>
     {
-        public NegyzetInt(int oldal) : base(oldal, oldal) { }
+        public NegyzetInt(int oldal, string n) : base(oldal, oldal, n) { }
 
         public override int Atlo()
         {

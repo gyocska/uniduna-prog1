@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH
 {
-    abstract class Negyszog<T>
+    class Negyszog<T>
     {
         protected T alap;
         protected T magassag;
@@ -19,8 +15,8 @@ namespace Prog1ZH
 
         public virtual void Kiir()
         {
-            Console.WriteLine("A NÉGYSZÖGEK ADATAI");
-            Console.WriteLine("===================");
+            Console.WriteLine("A NÉGYSZÖGEK ADATAI:");
+            Console.WriteLine("====================");
         }
     }
 }

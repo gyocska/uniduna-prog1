@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prog1ZH2.Generikus_absztrakt_osztalyok;
+using System;
 
 namespace Prog1ZH2.Tipus_specifikus_osztalyok
 {
@@ -6,10 +7,6 @@ namespace Prog1ZH2.Tipus_specifikus_osztalyok
     {
         public NegyzetDouble(double oldal) : base(oldal)
         {
-            if (alap != magassag)
-            {
-                throw new Exception("Valamit elcsesztem, negyzet eseten az alap es a magassag egyenlo kellene hogy legyen.");
-            }
         }
 
         public override double Atlo()

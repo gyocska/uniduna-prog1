@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH
 {
     class Paralelogramma<T> : Negyszog<T>, IParalelogramma<T>
     {
-        private readonly string name = "paralelogramma";
+        private readonly string name;
 
-        public Paralelogramma(T a, T m) : base(a, m) { }
+        public Paralelogramma(T a, T m, string n) : base(a, m) {
+            this.name = n;
+        }
 
         public T Kerulet()
         {

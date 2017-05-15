@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Prog1ZH2
+namespace Prog1ZH2.Generikus_absztrakt_osztalyok
 {
     abstract class Negyzet<T> : Negyszog<T>
     {

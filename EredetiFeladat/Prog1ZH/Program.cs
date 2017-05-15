@@ -1,9 +1,4 @@
 ﻿using Prog1ZH.Tipus_specifikus_osztalyok;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH
 {
@@ -11,8 +6,13 @@ namespace Prog1ZH
     {
         static void Main(string[] args)
         {
-            NegyzetInt n = new NegyzetInt(12);
-            n.Kiir();
+            new Negyszog<int>(12, 12).Kiir();
+            NegyzetInt negyzet1 = new NegyzetInt(12, "négyzet");
+            negyzet1 = null; // nem szüntettük meg, csak a rá mutató referenciát GC.Collect(); ?
+            NegyzetDouble negyzet2 = new NegyzetDouble(12, "négyzet");
+            negyzet2.Kiir();
+            new TrapezDouble(12, 12, "trapéz");
+            new ParalelogrammaDouble(12, 12, "paralelogramma");
         }
     }
 }

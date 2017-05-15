@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH
 {
     class Negyzet<T> : Negyszog<T>, INegyzet<T>
     {
-        private readonly string name = "négyzet";
+        private readonly string name;
 
-        public Negyzet(T a, T m) : base(a, m) { }
+        public Negyzet(T a, T m, string n) : base(a, m) {
+            this.name = n;
+        }
 
         public virtual T Atlo()
         {

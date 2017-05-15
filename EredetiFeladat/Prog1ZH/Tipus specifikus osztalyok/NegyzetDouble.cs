@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prog1ZH.Tipus_specifikus_osztalyok
 {
     class NegyzetDouble : Negyzet<double>
     {
-        public NegyzetDouble(double a, double m) : base(a, m) { }
+        public NegyzetDouble(double oldal, string n) : base(oldal, oldal, n) { }
 
         public override double Atlo()
         {

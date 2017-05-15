@@ -1,15 +1,12 @@
-﻿using System;
+﻿using Prog1ZH2.Generikus_absztrakt_osztalyok;
+using System;
 
-namespace Prog1ZH2
+namespace Prog1ZH2.Tipus_specifikus_osztalyok
 {
     class NegyzetInt : Negyzet<int>
     {
         public NegyzetInt(int oldal) : base(oldal)
         {
-            if (alap != magassag)
-            {
-                throw new Exception("Valamit elcsesztem, negyzet eseten az alap es a magassag egyenlo kellene hogy legyen.");
-            }
         }
 
         public override int Atlo()

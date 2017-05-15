@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Prog1ZH2.Interfeszek;
+using System;
 
-namespace Prog1ZH2
+namespace Prog1ZH2.Generikus_absztrakt_osztalyok
 {
     abstract class Negyszog<T> : ISikidom<T>, IKiirathato
     {
